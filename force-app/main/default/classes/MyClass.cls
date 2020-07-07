@@ -25,16 +25,16 @@ public with sharing class MyClass {
     public MyClass() {
         sayHello('Mckinsey BDA BU');
         sayHello('Wilson');
+        sayHello('Github');
     }
 
-    /***************************
-    ******************************************************************************
-     * @name            The name of your class or method
-     * @author          sf-wilson <itsme_web@sina.com>
-     * @created         07 / 07 / 2020
-     * @description     Description of your code
-     * @param           String param : Explanation
-     * @return          Explanation of the return value
+    /*********************************************************************************************************
+     * @name			sayHello
+     * @author			sf-wilson <itsme_web@sina.com>
+     * @created			07 / 07 / 2020
+     * @description		Description of your code
+     * @param			String name : name string
+     * @return			void
     **********************************************************************************************************/
     public static void sayHello(String name) {
         System.debug('Hello, ' + name + '!');
